@@ -1,0 +1,30 @@
+[ {
+  "id" : "1",
+  "marque" : null,
+  "modele" : null,
+  "annee" : 0,
+  "immatriculation" : null,
+  "type" : null,
+  "statut" : null
+},
+ {
+    "id": "veh001",
+    "marque": "Toyota",
+    "modele": "Corolla",
+    "annee": 2020,
+    "immatriculation": "AB-123-CD",
+    "type": "Voiture",
+    "statut": "Disponible"
+  },
+  {
+    "id": "veh002",
+    "marque": "Ford",
+    "modele": "F-150",
+    "annee": 2019,
+    "immatriculation": "EF-456-GH",
+    "type": "Camion",
+    "statut": "En maintenance"
+  }
+]
+
+
