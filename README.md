@@ -3,9 +3,9 @@
 ## 📄 `README.md`
 
 ````md
-# 🎫 EventManager – Gestion d'Événements (Spring Boot + React)
+# 🎫 ELASTICSEARCH (Spring Boot + React)
 
-Une application complète de gestion d’événements (conférences et concerts), avec une interface web moderne.
+
 
 ## 🚀 Fonctions principales
 
