@@ -1,14 +1,12 @@
-// src/App.jsx
-import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import ContainerTerminalExpertSystem from "./Pages/ContainerTerminalExpertSystem";
-
-export default function App() {
+import VehicleList from "./Pages/VehicleList";
+import VehicleSearch from "./Pages/VehicleSearch";
+function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<ContainerTerminalExpertSystem />} />
-      </Routes>
-    </Router>
+    <div className="min-h-screen bg-gray-100">
+      <VehicleList />
+      <VehicleSearch />
+    </div>
   );
 }
+
+export default App;
