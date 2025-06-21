@@ -18,10 +18,10 @@ public class VehicleController {
     @Autowired
     private VehicleService vehicleService;
 
-    @GetMapping
+    /*@GetMapping
     public List<Vehicle> getAllVehicles() {
         return vehicleService.getAllVehicles();
-    }
+    }*/
 
     @GetMapping("/{id}")
     public ResponseEntity<Vehicle> getVehicleById(@PathVariable String id) {
